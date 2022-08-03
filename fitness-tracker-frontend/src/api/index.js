@@ -1,5 +1,5 @@
 import axios from "axios";
-const API_URL = "https://radiant-hamlet-41705.herokuapp.com";
+const API_URL = "https://whispering-cliffs-45033.herokuapp.com/";
 
 export const api = axios.create({
   baseURL: `${API_URL}/api`,
